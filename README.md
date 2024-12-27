@@ -47,16 +47,16 @@ Developed by: VISHWA V
 RegisterNumber:24901061
 */
 ```
-module exp8(D,clk,Q,Qbar);
-input D,clk;
+module exp9(T,clk,Q,Qbar);
+input T,clk;
 output reg Q;
 output reg Qbar;
 initial Q=0;
-initial Qbar =1;
-always @ (posedge clk)
-begin
-Q=D;
-Qbar = ~D;
+initial Qbar=1;
+always @(posedge clk)
+begin 
+Q=(T&(~Q))|((~T)&Q);
+Qbar=~Q;
 end
 endmodule
 ```
