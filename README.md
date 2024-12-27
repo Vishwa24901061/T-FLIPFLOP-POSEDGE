@@ -66,7 +66,7 @@ endmodule
 
 ![exp09 digi](https://github.com/user-attachments/assets/22d172df-ee11-4115-a3e2-2aa8866ba3ee)
 
-**TIMING DIAGARM**
+**TIMING DIAGRAM**
 
 
 ![output 9](https://github.com/user-attachments/assets/3f285780-d003-405c-910d-d88884ac86d6)
